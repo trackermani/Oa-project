@@ -1,0 +1,13 @@
+아래 BDR(Bunker Delivery Receipt) 문서에서 다음 정보를 JSON 형태로 추출해주세요.
+
+추출 항목:
+- vessel_name: 선명 (Vessel Name)
+- quantity_delivered: 실제 공급수량 (MT 단위 숫자만)
+- fuel_type: 유종 (예: VLSFO, LSMGO, MGO 등)
+- delivery_date: 공급일 (yyyy-MM-dd 형식)
+- supplier_name: 공급사명
+
+문서 내용:
+{document_text}
+
+JSON으로만 응답해주세요.

@@ -1,0 +1,14 @@
+아래 인보이스 문서에서 다음 정보를 JSON 형태로 추출해주세요.
+
+추출 항목:
+- quantity: 수량 (MT 단위 숫자만)
+- unit_price: 단가 (USD)
+- total_amount: 총액 (USD)
+- fuel_type: 유종
+- bank_name: 은행명
+- account_number: 계좌번호
+
+문서 내용:
+{document_text}
+
+JSON으로만 응답해주세요.

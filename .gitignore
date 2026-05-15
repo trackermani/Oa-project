@@ -1,0 +1,21 @@
+# 참고용 클론 레포
+deal_agent/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Java / Gradle
+build/
+.gradle/
+*.class
+*.jar
+
+# 환경 설정
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db

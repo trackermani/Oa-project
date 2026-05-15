@@ -1,0 +1,13 @@
+아래 노미네이션 컨펌 문서에서 다음 정보를 JSON 형태로 추출해주세요.
+
+추출 항목:
+- vessel_name: 선명 (Vessel Name)
+- port: 포트명 (Port)
+- supply_date: 공급일정 (Supply Date, yyyy-MM-dd 형식)
+- quantity: 수량 (MT 단위 숫자만)
+- fuel_type: 유종 (예: VLSFO, LSMGO, MGO 등)
+
+문서 내용:
+{document_text}
+
+JSON으로만 응답해주세요.
